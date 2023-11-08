@@ -131,25 +131,41 @@ footer {
     background-color: rgb(40, 37, 37);
 }
 
-.lightbox-alucard {
+
+.lightbox {
     width: 100vw;
     height: 100vh;
     position: absolute;
-    top: 100px;
+    top: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.85);
     background-image: url(../images/alucardedit1.png);
     background-repeat: no-repeat;
-    background-size: 55vh;
+    background-size: 60vh;
     background-position: 40px bottom;
     z-index: 5000; 
     display: none;
 }
 
-#lightbox-alucard {
-    background-image: url(../images/Thor_LB_Bg.png);
+#lightbox-trevor {
+    background-image: url(../images/trevorbelmontedit2.png);
 }
 
+#lightbox-sypha {
+    background-image: url(../images/syphaedit2.png);
+}
+
+#lightbox-anette {
+    background-image: url(../images/anette_edit2.png);
+}
+
+#lightbox-eduoard {
+    background-image: url(../images/eduoard_edit2.png);
+}
+
+#lightbox-lisa {
+    background-image: url(../images/lisa_tepes_edits2.png);
+}
 .lightbox_close {
     position: relative;
     top: 20px;
